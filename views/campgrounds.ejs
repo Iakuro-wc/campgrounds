@@ -1,0 +1,11 @@
+<h1>The campgrounds page!! </h1>
+<a href="/">Back To Landing Page </a>
+
+<% campgrounds.forEach((campground) => { %>
+	<div>
+		<h4> <%= campground.name %> </h4>
+		<img src="<%=campground.image%>"
+	</div>
+
+		
+<% }); %>
